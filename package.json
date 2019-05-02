@@ -1,0 +1,28 @@
+{
+  "name": "cdk-cf-s3-static-website",
+  "version": "1.0.0",
+  "description": "An AWS CDK component that creates a CloudFront distributed S3 static website",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "aws",
+    "cdk",
+    "cloudfront",
+    "s3",
+    "website"
+  ],
+  "author": "Jack Gardner <jack@gardnersoftware.co.uk> (http://blog.drcode.co.uk)",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^8.9.4",
+    "typescript": "^3.1.2"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-cloudfront": "^0.22.0",
+    "@aws-cdk/aws-s3": "^0.22.0",
+    "@aws-cdk/aws-s3-deployment": "^0.22.0",
+    "@aws-cdk/cdk": "^0.22.0"
+  }
+}
